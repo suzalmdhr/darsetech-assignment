@@ -1,0 +1,12 @@
+In eclipse, Install the Spring Tools Suite (STS) Plugin for Eclipse (Optional but Recommended) ,clone the git repo git clone https://github.com/username/repository-name.git
+
+Open Eclipse.
+Select File > Import.
+Choose Existing Maven Projects (for Maven-based projects) or Existing Gradle Project (for Gradle-based projects).
+Click Next, then select the cloned project directory and click Finish.
+
+After the project is imported into Eclipse, navigate to the main Spring Boot class (the class with @SpringBootApplication).
+Right-click on the class with the @SpringBootApplication annotation (this is the entry point for the Spring Boot application).
+Select Run As > Java Application.
+
+By default, the Spring Boot application will run on http://localhost:8080
